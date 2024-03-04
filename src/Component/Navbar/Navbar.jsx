@@ -17,13 +17,13 @@ export const Navbar = () => {
             <Link to='/'>Shop</Link>
           </li>
           <li className="font-JosefinSans text-lg font-light hover:underline decoration-2 underline-offset-8 hover:text-sopify-color cursor-pointer">
-            <Link to='/means'>Mens</Link>
+            <Link to='/men'>Mens</Link>
           </li>
           <li className="font-JosefinSans text-lg font-light hover:underline decoration-2 underline-offset-8 hover:text-sopify-color cursor-pointer">
-            <Link to='/womens'>Womens</Link>
+            <Link to='/women'>Womens</Link>
           </li>
           <li className="font-JosefinSans text-lg font-light hover:underline decoration-2 underline-offset-8 hover:text-sopify-color cursor-pointer">
-            <Link to='/kids'>Kids</Link>
+            <Link to='/kid'>Kids</Link>
           </li>
         </ul>
         <div className="nav_function flex w-44 justify-between items-center">

@@ -9,6 +9,7 @@ const Footer = () => {
     <div
       style={{ height: "30vh" }}
       className="footer flex flex-col items-center justify-around"
+
     >
       <div className="flex items-center w-64 justify-between">
         <img src={store} alt="store" width={60} />
@@ -23,13 +24,13 @@ const Footer = () => {
       </ul>
       <div className="flex w-1/12 justify-around">
         <div className="border border-gray-300 p-1">
-          <img src={insta} alt="" />
+          <img src={insta} alt="" width={30}/>
         </div>
         <div className="border border-gray-300 p-1">
-          <img src={pin} alt="" />
+          <img src={pin} alt="" width={30}/>
         </div>
         <div className="border border-gray-300 p-1">
-          <img src={whatsapp} alt="" />
+          <img src={whatsapp} alt="" width={30}/>
         </div>
       </div>
       <div className="w-full flex flex-col items-center mb-3">
