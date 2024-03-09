@@ -5,6 +5,7 @@ import Item from "../Component/items/Item";
 
 export const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
+
   return (
     <div className="container mx-auto">
       <div className="flex justify-between m-4 items-center">
