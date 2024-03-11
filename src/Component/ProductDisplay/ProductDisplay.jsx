@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import star_icon from "../Assets/star_icon.png";
 import star_dull_icon from "../Assets/star_dull_icon.png";
+import { ShopContext } from '../../context/ShopContext'
+
+
 
 const ProductDisplay = (props) => {
+  const { addToCart } = useContext(ShopContext)
   const { product } = props;
   return (
     <div className="flex my-4 justify-around">
@@ -60,7 +64,7 @@ const ProductDisplay = (props) => {
             </div>
           </div>
         </div>
-        <button className="py-2 px-4 hover:bg-red-400  bg-red-500 font-semibold text-lg text-white rounded-sm    ">
+        <button onClick={() => {addToCart(product.id)}} className="pointer py-2 px-4 hover:bg-red-400  bg-red-500 font-semibold text-lg text-white rounded-sm    ">
           Add to Cart
         </button>
         <div>
